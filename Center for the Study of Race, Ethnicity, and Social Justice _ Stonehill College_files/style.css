@@ -1,0 +1,64 @@
+/* === Sub-nav container === */
+.sub_nav {
+  max-width: 900px;        
+  margin: 0 auto;                 
+  background: #f5f5f5;         
+  padding: 20px;
+}
+
+/* === Flex container for sections === */
+.sub_nav_row {
+  display: flex;
+  justify-content: space-between; 
+  gap: 15px;                      
+  flex-wrap: wrap;                
+  padding: 0 20px; 
+  align-items: flex-start;              
+}
+
+/* === Individual section === */
+.sub_nav_section {
+  flex: 1;               
+  min-width: 180px;      
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+  background: #fff;
+}
+
+/* === Section header (summary) === */
+.sub_nav_section summary {
+  display: block;
+  background: #003e7c;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  padding: 12px;
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+}
+
+.sub_nav_section summary:hover {
+    background: #02284e;
+}
+
+.sub_nav_section ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; 
+  background: #f9f9f9;
+}
+
+.sub_nav_section li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  border-top: 1px solid #ddd;
+  color: #000;
+}
+
+.sub_nav_section li a:hover {
+  background: #eee;
+}
+
