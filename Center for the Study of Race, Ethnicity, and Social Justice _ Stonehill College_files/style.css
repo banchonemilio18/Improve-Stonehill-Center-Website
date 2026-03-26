@@ -61,4 +61,8 @@
 .sub_nav_section li a:hover {
   background: #eee;
 }
-
+.donation-message {
+  align-items: center;
+  text-align: center;
+  padding-top: 70px;
+}
